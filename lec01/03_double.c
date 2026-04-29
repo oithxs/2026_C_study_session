@@ -1,7 +1,9 @@
 #include<stdio.h>
 int main(void){
-    double a = 3.14;
-    double b = 2.71;
+    double a;
+    double b;
+    printf("Enter two double-precision floating-point numbers: ");
+    scanf("%lf %lf", &a, &b);
     double sum = a + b;
     double sub = a - b;
     double mul = a * b;
