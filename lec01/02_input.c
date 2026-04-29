@@ -1,8 +1,9 @@
 #include<stdio.h>
 int main(void){
     int a;
-    printf("Enter an integer: ");
-    scanf("%d", &a);
-    printf("You entered: %d\n", a);
+    int b;
+    printf("Enter two integers: ");
+    scanf("%d %d", &a, &b);
+    printf("You entered: %d and %d\n", a, b);
     return 0;
 }
