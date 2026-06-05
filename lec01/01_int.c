@@ -3,8 +3,8 @@
 int main(void){
     
     int a, b, sum, sub, mul, div, mod;
-    a = 10;
-    b = 5;
+    
+    scanf("%d %d",&a, &b);
 
     sum = a + b;
     sub = a - b;
