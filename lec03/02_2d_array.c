@@ -8,11 +8,12 @@ int main(void) {
         {16, 17, 18, 19, 20},
         {21, 22, 23, 24, 25}
     };
-
-    printf("array[2][3] = %d\n", array[2][3]);
-    printf("array[4][0] = %d\n", array[4][0]);
-    printf("array[0][4] = %d\n", array[0][4]);
-    printf("array[3][1] = %d\n", array[3][1]);
+    int i, j;
+    for (i = 0; i < 5; i++) {
+        for (j = 0; j < 5; j++) {
+            printf("array[%d][%d] = %d\n", i, j, array[i][j]);
+        }
+    }
 
     return 0;
 }
